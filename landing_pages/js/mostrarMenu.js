@@ -5,12 +5,12 @@ function mostrarMenu() {
     if (getComputedStyle(menu).display == 'none') {
         menu.style.display = "flex";
         icone.classList.remove("fa-bars");
-        icone.classList.add("da-times");
+        icone.classList.add("fa-times");
         //Mudar para times
     }  else {
         menu.style.display = "none";
         icone.classList.remove("fa-times");
-        icone,classList.add("fa-bars")
+        icone.classList.add("fa-bars")
         // Muda para Bars
     }
     
